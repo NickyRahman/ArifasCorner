@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="children's book, Muslim kids book, Eid, Illustrations, children-friendly books, picture-book, blogpost">
+    <meta name="description"
+        content="Dive into the captivating world of Arifa Afzal's Blog, where imagination, motherhood, creativity, and the art of storytelling intertwine. Join this acclaimed children's book author as she shares her insights and heartfelt thoughts on a myriad of topics. Uncover a treasure trove of inspiration and wisdom as Arifa opens up about her experiences as an author and a mother. Discover a haven of creativity where words come alive, nurturing young minds and kindling their imagination. Immerse yourself in the magical musings of Arifa Afzal and let her words ignite your own creative journey. Explore the depths of storytelling and beyond, leaving no stone unturned. Unlock your imagination and be inspired by Arifa's extraordinary tales!">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Blog Page</title>
+</head>
+
+<body>
+    <div id="page">
+        <!-- Scroll to the top Button -->
+        <button id="back-to-top-btn">
+            <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+        </button>
+
+        <!------------------- Header section --------------------------->
+        <app-navbar></app-navbar>
+
+        <!------------------- Hero section --------------------------->
+        <section class="hero-container">
+            <div class="hero">
+                <img src="./images/blog-hero.png" alt="hero image" title="hero image of a table with a book">
+            </div>
+        </section>
+
+        <!------------------- About section --------------------------->
+        <div id="blog">Loading posts...</div>
+
+        <!------------------- Subscribe section --------------------------->
+        <div class="blog-subscribe-btn">
+            <button id="blog-submit-btn" type="submit">Subscribe to monthly newsletter</button>
+        </div>
+
+        <!------------------- FOOTER SECTION --------------------------->
+        <app-footer></app-footer>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./blog.js" type="module"></script>
+    <script src="./component.js"></script>
+
+</body>
+
+</html>
